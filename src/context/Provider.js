@@ -27,7 +27,7 @@ function Provider({ children }) {
     })
   }
 
-  const context = { cars, moveCar }
+  const context = { cars, moveCar, signal, changeSignal }
 
   return(
     <CarsContext.Provider value={ context }>
